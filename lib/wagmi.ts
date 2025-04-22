@@ -19,6 +19,7 @@ import {
   apeChain,
   abstract,
   sepolia,
+  sonic,
 } from "viem/chains";
 import { eip712WalletActions } from "viem/zksync";
 
@@ -35,6 +36,7 @@ export const chains = [
   degen,
   sanko,
   apeChain,
+  sonic,
   ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [sepolia] : []),
 ];
 
@@ -78,5 +80,6 @@ export const config = createConfig({
     [sanko.id]: http(),
     [apeChain.id]: http(),
     [sepolia.id]: http(),
+    [sonic.id]: http(),
   },
 });

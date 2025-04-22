@@ -13,6 +13,7 @@ import {
   sanko,
   apeChain,
   abstract,
+  sonic,
 } from "viem/chains";
 
 export const airdropContractAddress = {
@@ -30,6 +31,7 @@ export const airdropContractAddress = {
   [sanko.id]: "0x0eBa170fDC5edC7f528AdbEebC6a1bFc55343181",
   [apeChain.id]: "0x54b5cd30582ddc305d814c95138a5bce04419249",
   [abstract.id]: "0xe231Aa7183862CEe136D8414E5638764c4297E79",
+  [sonic.id]: "0x3D5D4557426857CB91ce3fB39f26dFFF310b2591",
 };
 
 export const airdrop1155ContractAddress = {
