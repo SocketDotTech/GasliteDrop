@@ -21,6 +21,7 @@ import {
   sepolia,
   sonic,
   mantle,
+  linea,
 } from "viem/chains";
 import { eip712WalletActions } from "viem/zksync";
 
@@ -39,6 +40,7 @@ export const chains = [
   apeChain,
   sonic,
   mantle,
+  linea,
   ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [sepolia] : []),
 ];
 
@@ -84,5 +86,6 @@ export const config = createConfig({
     [sepolia.id]: http(),
     [sonic.id]: http(),
     [mantle.id]: http(),
+    [linea.id]: http(),
   },
 });

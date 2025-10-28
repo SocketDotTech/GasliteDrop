@@ -14,7 +14,8 @@ import {
   apeChain,
   abstract,
   sonic,
-  mantle
+  mantle,
+  linea
 } from "viem/chains";
 
 export const airdropContractAddress = {
@@ -34,6 +35,7 @@ export const airdropContractAddress = {
   [abstract.id]: "0xe231Aa7183862CEe136D8414E5638764c4297E79",
   [sonic.id]: "0x3D5D4557426857CB91ce3fB39f26dFFF310b2591",
   [mantle.id]: "0x3D5D4557426857CB91ce3fB39f26dFFF310b2591",
+  [linea.id]: "0x3D5D4557426857CB91ce3fB39f26dFFF310b2591",
 };
 
 export const airdrop1155ContractAddress = {
